@@ -8,6 +8,8 @@ import RPIO, time
 # This program uses Python to make use of the Raspberry Pi's GPIO
 # GPIO.RPI is replaced in this program with RPIO which need to be downloaded
 # RPIO adds the resistor value modification
+# The RPIO API is under LGPL V(3) licence
+# The licence of RPIO is here https://github.com/metachris/RPIO/blob/master/LICENSE.txt
 # As I am new at Python the following needs to be noted
 # This program does not make use of arrays
 # Future versions of this program will attempt to make use of arrays
