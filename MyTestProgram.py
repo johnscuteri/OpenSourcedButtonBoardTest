@@ -41,7 +41,7 @@ while True:
                                 RPIO.output(l, RPIO.LOW)
                                 # ^ Turns the LED off
                                 time.sleep(2)
-																# ^ Prevents the Led from blinking really fast
+				# ^ Prevents the Led from blinking really fast (2 second delay)
 
                 else:
                         RPIO.output(l, RPIO.HIGH)
