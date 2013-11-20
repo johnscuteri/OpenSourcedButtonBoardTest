@@ -29,7 +29,6 @@ for x in LED:
         RPIO.output(x, RPIO.HIGH)
 
 while True:
-while True:
         for l, c, s, b in zip(LED,Current, Save, Button):
                 s = c
                 c = RPIO.input(b)
