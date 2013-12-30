@@ -14,8 +14,9 @@ import RPIO, time
 
 # Setting resistor values for the switches
 
-Button = [15,17,18,21,22,23,24,25]
-LED = [0,1,4,7,8,9,10,11]
+RPIO.setmode(RPIO.BOARD)
+Button = [10,11,12,13,15,16,18,22]
+LED = [3,5,7,26,24,21,19,23]
 Current = [True, True,True, True,True, True,True, True ]
 Save = [True, True,True, True,True, True,True, True ]
 
